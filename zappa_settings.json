@@ -1,0 +1,10 @@
+{
+    "production": {
+        "app_function": "app.app",
+        "profile_name": "default",
+        "project_name": "portfolio",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-ag0c8wvzz",
+        "aws_region": "us-west-2"
+    }
+}

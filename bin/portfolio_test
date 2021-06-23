@@ -1,0 +1,12 @@
+#!/bin/bash
+# portfoliodb
+
+# Stop on errors
+# See https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+set -Eeuo pipefail
+set -x
+
+pycodestyle portfolio
+pydocstyle portfolio
+pylint --disable=cyclic-import --unsafe-load-any-extension=y portfolio
+pytest -v tests

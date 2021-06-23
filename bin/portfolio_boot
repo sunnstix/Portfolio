@@ -1,0 +1,13 @@
+#!/bin/bash
+#portfoliorun
+
+# Stop on errors
+# See https://vaneyckt.io/posts/safer_bash_scripts_with_set_euxo_pipefail/
+set -Eeuo pipefail
+
+SCRIPTDIR=`dirname $0`
+
+export FLASK_DEBUG=True
+export FLASK_APP=portfolio
+export portfolio_SETTINGS=config.py
+flask run --host 0.0.0.0 --port 8000
