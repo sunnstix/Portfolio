@@ -22,6 +22,8 @@ session.json
 tmp
 temp
 
+zappa_settings.json
+
 
 # Python
 *.pyc
