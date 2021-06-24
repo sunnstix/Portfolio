@@ -11,7 +11,7 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Activities
+   f. Courses
    g. Stats
    h. Contact Section
    i. Footer
@@ -83,7 +83,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -851,11 +851,11 @@ ul#nav li.current a { color: #F06000; }
 
 /** 
  * ===================================================================
- * f. Activities - (_layout.scss)
+ * f. Courses - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#activities {
+#courses {
   background: black url(../images/bg.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -865,7 +865,7 @@ ul#nav li.current a { color: #F06000; }
   color: white;
   position: relative;
 }
-#activities .overlay {
+#courses .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -875,19 +875,19 @@ ul#nav li.current a { color: #F06000; }
   opacity: .9;
 }
 
-#activities .section-intro {
+#courses .section-intro {
   margin-bottom: 1.8rem;
 }
 
-#activities .section-intro h1 {
+#courses .section-intro h1 {
   color: white;
 }
 
-#activities .section-intro p {
+#courses .section-intro p {
   color: rgba(255, 255, 255, 0.7);
 }
 
-#activities .activities-content {
+#courses .courses-content {
   max-width: 1200px;
 }
 
@@ -896,28 +896,28 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
 }
 
-#activities h3 {
+#courses h3 {
   color: #F06000;
   text-align: center;
 }
 
-#activities .info {
+#courses .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
    text-align: center;
 }
-#activities .info span {
+#courses .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#activities .date {
+#courses .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 
-#activities p {
+#courses p {
   text-align: center;
 }
 

@@ -51,7 +51,7 @@
                 <li><a class="smoothscroll" href="#about">About</a></li>
                 <li><a class="smoothscroll" href="#resume">Resume</a></li>
                 <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-                <li><a class="smoothscroll" href="#activities">Activities</a></li>
+                <li><a class="smoothscroll" href="#courses">Courses</a></li>
                 <li><a class="smoothscroll" href="#stats">Statistics</a></li>
                 <li><a class="smoothscroll" href="#contact">Contact</a></li>
             </ul> <!-- end #nav -->
@@ -96,9 +96,9 @@
                         Arbor) majoring in Computer Science and minoring in Business and Mathematics. My recent
                         interests lie in transforming developing machine learning techniques into applied models,
                         particularly in the fields of medicine and robotics. I'm quite open to new experiences within
-                        the scope of computer science and despite completing the necessary coursework for my major and
+                        the scope of computer science and despite completing the necessary courses for my major and
                         being capable of concluding my education at the University of Michigan as early as December
-                        2021, I am currently pursuing further coursework to further my comprehension of the breadth of
+                        2021, I am currently pursuing further courses to further my comprehension of the breadth of
                         the field.
                     </p>
                 </div>
@@ -176,7 +176,7 @@
 
         <div class="row button-section">
             <div class="col-twelve">
-                <a href="{{ url_for('static', filename='files/resume.pdf') }}" title="Download CV"
+                <a href="{{ url_for('static', filename='files/resume.pdf') }}" target="_blank" title="Download CV"
                     class="button button-primary">Download CV</a>
             </div>
         </div>
@@ -340,7 +340,7 @@
                         <div class="timeline-block">
 
                             <div class="timeline-ico">
-                                <i class="fa fa-pencil"></i>
+                                <i class="fa fa-graduation-cap"></i>
                             </div>
 
                             <div class="timeline-header">
@@ -360,7 +360,7 @@
                         <div class="timeline-block">
 
                             <div class="timeline-ico">
-                                <i class="fa fa fa-pencil"></i>
+                                <i class="fa fa-graduation-cap"></i>
                             </div>
 
                             <div class="timeline-header">
@@ -709,24 +709,24 @@
 
     </section> <!-- Portfolio Section End-->
 
-    <!-- activities Section
+    <!-- Courses Section
    ================================================== -->
-    <section id="activities">
+    <section id="courses">
 
         <div class="overlay"></div>
 
         <div class="row section-intro">
             <div class="col-twelve">
 
-                <h5>Activities</h5>
-                <h1>My positions during undergraduate.</h1>
+                <h5>Courses</h5>
+                <h1>Relevant Courses</h1>
 
-                <p class="lead">Summary of my leadership & extracurricular activities</p>
+                <p class="lead">Summary of collegiate coursework</p>
 
             </div>
         </div> <!-- /section-intro -->
 
-    </section> <!-- /activities -->
+    </section> <!-- /courses -->
 
 
     <!-- stats Section
@@ -927,7 +927,6 @@
     <!-- Java Script
    ================================================== -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
 
     <script src="{{ url_for('script', filename='jquery-migrate-1.2.1.min.js') }}"></script>
     <script src="{{ url_for('script', filename='jquery.flexslider.js') }}"></script>

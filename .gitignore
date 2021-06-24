@@ -59,3 +59,5 @@ files_for_autograder_io/
 # Google Drive and Dropbox
 Icon
 .dropbox*
+zappa_settings.json
+zappa_settings.json
