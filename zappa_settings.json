@@ -4,7 +4,9 @@
         "profile_name": "default",
         "project_name": "portfolio",
         "runtime": "python3.8",
-        "s3_bucket": "zappa-ag0c8wvzz",
-        "aws_region": "us-west-2"
+        "s3_bucket": "zappa-qj9ysav7r",
+        "aws_region": "us-east-2",
+        "domain": "www.sunnstix.com",
+        "certificate_arn": "arn:aws:acm:us-east-1:767688195270:certificate/69146163-f0e7-4616-8e32-04478798f1d7"
     }
 }
