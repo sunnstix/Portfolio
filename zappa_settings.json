@@ -1,4 +1,5 @@
 {
+    "slim_handler": false,
     "production": {
         "app_function": "app.app",
         "profile_name": "default",
